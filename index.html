@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
     <link
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <title>Document</title>
   </head>
 
   <body>
-    <!-- Navigation -->
+    <!-- Old Navigation 
     <nav>
       <ul>
         <li><a href="#index.html" class="nav item">ACCUEIL</a></li>
@@ -22,6 +23,21 @@
         <li><a href="#" class="nav item">Contact</a></li>
       </ul>
     </nav>
+-->
+
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <div class="menu-toggle"></div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">Accueil</a></li>
+          <li><a href="#">A props</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+    </header>
 
     <!-- Home -->
 
@@ -118,15 +134,25 @@
           </div>
           <div class="content">
             <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-              ipsum quasi a assumenda amet eaque nam temporibus iure deleniti in
-              tenetur atque reprehenderit, alias, enim repellat cumque
-              consequatur. Mollitia harum fuga quod aspernatur qui amet cumque
-              et debitis nesciunt consequuntur!
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Blanditiis nobis mollitia repellendus rem! Similique temporibus
+              doloribus veritatis ipsa ab exercitationem incidunt eos excepturi
+              ad neque soluta Lorem ipsum, dolor sit amet consectetur
+              adipisicing elit. Sed deserunt sint possimus.<span class="dots">
+                ...</span
+              >
+              <span class="moreText">
+                cum iste error a amet magnam consequatur vitae ea aut blanditiis
+                tenetur, nulla quas! A, asperiores. Culpa, ratione ut maiores
+                dolores accusamus delectus voluptate? Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Numquam dignissimos modi,
+                officia recusandae accusantium impedit iure eaque atque dolorem
+                dolor!</span
+              >
             </p>
             <div class="button">
-              <a href="">Lire plus</a>
+              <button id="read-more">Lire Plus</button>
             </div>
           </div>
         </div>
