@@ -95,6 +95,14 @@ header {
   float: left;
   font-weight: 700;
   text-decoration: none;
+  position: relative;
+}
+
+.logo img {
+  width: 111px;
+  height: auto;
+  position: absolute;
+  top: -18px;
 }
 
 nav {
@@ -133,6 +141,9 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .logo {
     padding: 0 2vw;
+  }
+  .logo img {
+    text-align: center;
   }
   .menu-toggle {
     display: block;
