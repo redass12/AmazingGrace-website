@@ -32,3 +32,12 @@ menuToggle.addEventListener("click", () => {
   menuToggle.classList.toggle("active");
   nav.classList.toggle("active");
 });
+
+// fixing the paragraph display on mobile phone :
+
+const mediaQuery = window.matchMedia("(max-width: 768px)");
+const p = document.querySelector("#p");
+
+if (mediaQuery.matches) {
+  p.style.width = `${screen.width - 30}px`;
+}
