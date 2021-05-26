@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
 
     <link
       rel="stylesheet"
@@ -45,10 +46,10 @@
       <div class="menu-toggle"></div>
       <nav>
         <ul>
-          <li><a href="#" class="active">Accueil</a></li>
-          <li><a href="#">A props</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home" class="active">Accueil</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a href="#infos">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="clearfix"></div>
@@ -59,18 +60,18 @@
     <div id="home" class="hero">
       <!-- Bloc 1  -->
       <div class="home-left">
-        <h1 class="animate__animated animate__slideInLeft animate__faster">
+        <h1 class="animate__animated animate__fadeInLeft animate__faster">
           AmazingGrace
         </h1>
-        <p class="animate__animated animate__slideInLeft animate__fast" id="p">
+        <p class="animate__animated animate__fadeInLeft animate__fast" id="p">
           Pour toutes personnes désireuses d’avoir un suivi médical,
           s’installer, et poursuivre des études au Rwanda, nous vous proposons
           un service d’assistance et d’accompagnement à des prix forfaitaires.
         </p>
         <div
-          class="animate__animated animate__slideInLeft animate__fast btn-home"
+          class="animate__animated animate__fadeInLeft animate__fast btn-home"
         >
-          <a href="#" class="menu-btn b1">Contact</a>
+          <a href="#contact" class="menu-btn b1">Contact</a>
           <a href="#infos" class="menu-btn b2">Services</a>
         </div>
       </div>
@@ -79,10 +80,10 @@
     </div>
 
     <!-- Offering -->
-    <h2 class="info-title">NOS DIFFERENTS SERVICES</h2>
-    <section class="info-section" id="infos">
+    <h2 id="infos" class="info-title">NOS DIFFERENTS SERVICES</h2>
+    <section class="info-section">
       <a href="assistanceMalade.html">
-        <div class="info-card">
+        <div class="info-card animate__animated animate__fadeIn">
           <div class="container-info-photo">
             <img src="https://via.placeholder.com/500" alt="" />
           </div>
@@ -94,7 +95,7 @@
         </div>
       </a>
       <a href="assistanceEtude.html">
-        <div class="info-card">
+        <div class="info-card animate__animated animate__fadeIn">
           <div class="container-info-photo">
             <img src="https://via.placeholder.com/500" alt="" />
           </div>
@@ -106,10 +107,11 @@
         </div>
       </a>
       <a href="assistanceVisite.html">
-        <div class="info-card">
+        <div class="info-card animate__animated animate__fadeIn">
           <div class="container-info-photo">
             <img src="https://via.placeholder.com/500" alt="" />
           </div>
+
           <h2>Assistance Touristique</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
@@ -142,7 +144,7 @@
 
     <!-- Apropos  de nous -->
 
-    <div class="about-section">
+    <div id="about" class="about-section">
       <div class="about-container">
         <div class="content-section">
           <div class="title">
@@ -172,14 +174,18 @@
             </div>
           </div>
         </div>
-        <div class="image-section">
-          <img src="https://via.placeholder.com/500" alt="" />
+        <div class="image-section pattern-diagonal-lines-sm gray-lighter">
+          <img
+            style="transform: translate(30px, 30px)"
+            src="https://via.placeholder.com/500"
+            alt=""
+          />
         </div>
       </div>
     </div>
 
     <!-- Contact form -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="container">
         <div class="contactInfo">
           <div>

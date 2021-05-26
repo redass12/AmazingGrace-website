@@ -175,6 +175,11 @@ nav ul li a:hover {
   nav.active ul li {
     margin: 0;
   }
+
+  nav ul li:nth-child(1) {
+    margin-right: 10px;
+  }
+
   .menu-toggle.active::before {
     content: "\f00d";
     font-family: "Font Awesome 5 Free";
